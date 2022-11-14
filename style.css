@@ -228,4 +228,7 @@ footer {
   .testimonial h1 {
     font-size: 25px;
   }
+  .subs {
+    font-size: 10px !important;
+  }
 }
