@@ -145,7 +145,7 @@ header {
   right: -200px;
   top: 1350px;
   z-index: 0;
-  width: 100vw;
+  width: 500px;
 }
 
 .c2 {
@@ -204,12 +204,12 @@ footer {
   .newsletter {
     width: 100%;
   }
-  .circle {
-    right: 200px;
-  }
 }
 
 @media (max-width: 767.98px) {
+  .circle {
+    right: 200px;
+  }
   header h1 {
     font-size: 40px !important;
   }
