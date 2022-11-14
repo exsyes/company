@@ -172,7 +172,7 @@ footer {
 @media (max-width: 991.98px) {
   .navbar {
     margin-top: -3px;
-    width: 100%;
+    width: 100vw;
     background-color: #114e4e;
     border-radius: 0 0 10px 10px;
     opacity: 0.8;
