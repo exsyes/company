@@ -1,0 +1,228 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  /* width: 60%; */
+  margin-top: 30px;
+}
+
+.f-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav a {
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.navbar img {
+  margin-left: 30px;
+}
+
+.img-mg {
+  margin-right: 190px;
+}
+
+header {
+  /* background-image: url(img/Background.png); */
+  background-size: cover;
+  height: 1024px;
+  display: flex;
+  color: white;
+}
+
+.head {
+  background: linear-gradient(rgba(17, 78, 78, 1), rgba(0, 9, 9, 1));
+  background-size: cover;
+}
+
+.text-sd {
+  text-shadow: 1px 1px 1px grey;
+}
+
+.copy-text {
+  font-family: "Poppins";
+  width: 60%;
+  padding: 40px;
+}
+
+.copy-img {
+  width: 40%;
+}
+
+.copy-text h1 {
+  margin-top: 140px !important;
+  font-size: 68px;
+  font-weight: bold;
+}
+
+.copy-text p {
+  font-size: 24px;
+  font-weight: 200;
+  opacity: 0.8;
+}
+
+.copy-text button {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.service {
+  background: #000909;
+  color: white;
+}
+
+.service .sr {
+  background-color: #0a0f16;
+}
+
+.service .card-header {
+  border-bottom: none;
+}
+
+.portfolio {
+  background-color: #000909;
+}
+
+#portfolio,
+#service,
+#testimonial {
+  padding-top: 50px;
+}
+
+.testimonial {
+  background-color: rgba(0, 9, 9, 1);
+}
+
+.testimonial h1 {
+  font-size: 40px;
+}
+
+.testimonial p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.companies {
+  padding: 50px 0;
+}
+
+.email {
+  background-image: linear-gradient(to bottom right, #00ffd1, rgba(39, 215, 215, 1));
+  height: 400px;
+}
+
+.subs {
+  background-image: linear-gradient(to bottom right, rgba(2, 166, 166, 1), rgba(1, 106, 106, 1));
+  color: EEEEEE;
+  letter-spacing: 1px;
+}
+
+.newsletter {
+  width: 50%;
+}
+
+#FormControlInput1::-webkit-input-placeholder {
+  color: #569b9b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.copy-promo {
+  text-shadow: 3px 1px 10px rgb(177, 174, 174);
+  color: #000909;
+}
+
+.circle {
+  position: absolute;
+  right: -200px;
+  top: 1350px;
+  z-index: 0;
+  width: 500px;
+}
+
+.c2 {
+  position: absolute;
+  top: 2100px;
+  left: -120px;
+  z-index: 0;
+  width: 500px;
+}
+
+.exp-b {
+  z-index: 1;
+}
+
+footer {
+  background: linear-gradient(90deg, rgba(0, 9, 9, 1) 0%, rgba(4, 17, 17, 1) 56%, rgba(5, 45, 45, 1) 82%, rgba(17, 78, 78, 1) 100%);
+}
+
+
+/* .portfolio .output {
+  height: 600px;
+} */
+
+@media (max-width: 991.98px) {
+  .navbar {
+    margin-top: -3px;
+    width: 100%;
+    background-color: #114e4e;
+    border-radius: 0 0 10px 10px;
+    opacity: 0.8;
+  }
+  .navbar-nav {
+    margin-left: 0;
+  }
+  .navbar-nav a {
+    padding: 15px 0;
+    margin: auto;
+  }
+  .copy-text {
+    text-align: center;
+    width: 100%;
+  }
+  .copy-img {
+    background-image: none;
+    display: none;
+  }
+  .copy-text h1 {
+    margin-top: 100px;
+    font-size: 60;
+    width: 80%;
+  }
+  .copy-text p {
+    width: 75%;
+    margin: auto;
+  }
+  .newsletter {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header h1 {
+    font-size: 40px !important;
+  }
+  header p {
+    font-size: 20px !important;
+  }
+  header button {
+    font-size: 1rem !important;
+  }
+  header {
+    height: 700px;
+  }
+  #service h1 {
+    font-size: 1.6rem;
+  }
+  .testimonial h1 {
+    font-size: 25px;
+  }
+}
